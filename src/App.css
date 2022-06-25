@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+
+  background-color: #FFFFED;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.q-icon,
+.course {
+  color: #A29B90;
+  margin-top: -5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.content-container {
+  margin-top: 30px;
+  width: 100%;
+  height: 75%;
+}
+
+
+.description {
+  color: rgba(0, 0, 0, 0.555);
+}
+
+.images {
+  background-color: azure;
+}
+
+.name {
+  color: #5900C3;
+}
+
+.profile-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.review {
+  color: rgba(0, 0, 0, 0.555);
+  ;
+}
+
+.rating {
+  color: gold;
+}
+.shedule-button{
+  width: 230px;
+  height: 50px;
+  background-color:#5900C3 ;
   color: white;
+  border-radius: 50px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.share-button,.save-button{
+  color: #5900C3;
 }
